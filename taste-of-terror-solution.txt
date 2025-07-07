@@ -1,0 +1,273 @@
+A Taste of Terror
+By Garry Francis
+For Z-code interpreters
+
+Solution by Garry Francis
+----------------------------------------
+This is a minimal solution. You'll need to EXAMINE lots of things for this solution to make sense. Some optional (but significant) commands are shown in parentheses. These can be omitted once you know what to do.
+
+You start the game with a pain in your back. You get reminded of this periodically. The reminders become more frequent until the pain gets worse, then unbearable, then you die after 103 moves. So, an early objective is to find the cause of the back pain and fix it. The gypsy woman and the spell book may prove helpful here. Or pick up more than ten items for a valuable clue.
+
+Your ultimate objective will become clear as the story develops. The gypsy woman is a great source of information, so ask her about anything that seems relevent or anything she mentions in passing.
+
+If you get stuck, the HINT command is very helpful, but please don't use it unless you really need to.
+
+(OPEN PANTRY DOOR) (it's locked)
+OPEN CUPBOARD (you find a packet of painkillers and a matchbox)
+(READ PACKET) (chew tablet for instant relief of back pain etc.)
+(OPEN IT) (you find a chewable tablet)
+(GET TABLET)
+(EAT IT) (nothing happens, something else must be causing your back pain)
+GET MATCHBOX
+W
+U
+(W)
+(N) (the door is closed)
+(OPEN DOOR) (it's locked)
+(UNLOCK IT) (you don't have the key, you'll have to find another way in)
+(E)
+OPEN CURTAIN
+N
+GET LADDER
+S
+E
+N
+LOOK UNDER BED (you find backpack and doll)
+(X DOLL) (it's pierced with long pins)
+REMOVE PINS FROM DOLL (your back pain goes away)
+DROP THEM
+(X BACKPACK) (you can use backpack to carry excess items, but you don't need it)
+S
+E
+(X TRAPDOOR) (it's in the ceiling and it's closed)
+(OPEN TRAPDOOR) (you can't reach it)
+DROP LADDER
+CLIMB IT
+(U) (you'll have to open the trapdoor first)
+OPEN TRAPDOOR
+U (it's dark)
+LIGHT MATCH (you should open the shutter to let some light in)
+OPEN SHUTTER (the moonlight streams in through the window)
+OPEN CHEST (you find a hood)
+GET HOOD
+(N) (the window is closed)
+OPEN WINDOW
+N
+D
+W
+OPEN WINDOW
+S
+X NIGHTSTAND (you find a hairpin and a small key)
+GET ALL (hairpin and small key taken)
+N
+E
+U
+S
+D (you lower yourself onto the ladder)
+GET OFF LADDER
+W
+W
+D
+W
+X DESK (it has a drawer, you also find a parchment and a quill)
+GET ALL (parchment and quill taken)
+(OPEN DRAWER) (it's locked)
+(X DRAWER) (it has a tiny brass lock)
+(X LOCK) (it takes a tiny key, but you only have a small key)
+(PUT HAIRPIN IN LOCK) (it fits, maybe you could use it to pick the lock)
+PICK LOCK WITH HAIRPIN (the drawer is now unlocked)
+OPEN DRAWER (you find a spell book and a silver coin)
+DROP HAIRPIN
+GET ALL FROM DRAWER (spell book and silver coin taken)
+(X BOOK) (it has a symbol on the cover)
+(X SYMBOL) (it looks like a magical symbol)
+(READ BOOK) (it's written in Latin, you'll need to look up a specific spell)
+(X COIN) (it's a double-headed coin and very valuable)
+E
+E
+UNLOCK DOOR WITH KEY
+OPEN IT
+DROP KEY
+OPEN TRUNK (you find a jug and a dagger)
+GET ALL FROM TRUNK (jug and dagger taken, something rattles inside the jug)
+E
+OPEN FREEZER (you find your Aunt Clarissa's body)
+(X BODY) (it's been decapitated)
+D
+D (the old woman who collected you from the station is here, she's an imposter)
+(Z) (she was the one who cursed you, your aunt and uncle are witches)
+(Z) (she killed your aunt and uncle for the adulescens spell)
+(Z) (she killed your uncle one month ago)
+(Z) (she killed your aunt on the last full moon, she's about to strike)
+STAB WITCH WITH DAGGER (you can also shoot her or use the pitchfork)
+DROP DAGGER
+(X TRAPDOOR) (it's locked  with a sliding bolt)
+UNLOCK TRAPDOOR (or SLIDE BOLT)
+OPEN IT (so we can get back later)
+GET TORCH
+U
+U
+W
+W
+(S) (the door's closed)
+OPEN DOOR
+S
+W
+W
+N
+(E) (gypsy man stops you)
+(X MAN) (olive skin, black hair, thick moustache, in his thirties)
+(TALK TO HIM) (it'll cost a copper coin or silver coin to see Esmeralda)
+SHOW COIN TO MAN (he recognises its value)
+GIVE COIN TO MAN (you're now free to see Esmeralda)
+E (Esmeralda greets you, how does she know your name?)
+(X ESMERALDA) (she's a middle-aged woman)
+(TALK TO HER)
+(X CRYSTAL BALL) (you expect to see the future)
+(ASK ESMERALDA ABOUT FUTURE) (if you kill witch, aunt & uncle can be restored)
+(ASK HER ABOUT BACK PAIN) (it was caused by poena curse)
+(ASK HER ABOUT POENA CURSE) (push pins into effigy, remove pins to remove it)
+ASK HER ABOUT AUNT (she was white witch, can be revived with expurgo spell)
+ASK HER ABOUT UNCLE (he was also white witch, can be revived with expurgo spell)
+ASK HER ABOUT EXPURGO (you can find it in spell book)
+(ASK ABOUT BOOK) (all witch's keep a spell book)
+(ASK ABOUT ADULESCENS SPELL) (something to do with adolescence or youthfulness)
+(You can also ask Esmeralda about ANIMA, CIRCLE, RAVEN, CRYPT, CURSE, DOLL, HERSELF, GYPSY, SELF, PENTAGRAM, POTION, RITUAL, SPELL, SURVEY, WARLOCK, WITCH, WITCHCRAFT, things around the farm and lots of synonyms.)
+(SHOW BOOK TO ESMERALDA) (keep it close to you, as you'll need it)
+(LOOK UP POENA IN BOOK) (gives 3 steps to inflict curse, remove pins to remove it)
+LOOK UP EXPURGO IN BOOK (pour holy water over body, draw circle in crypt with raven's blood, write 'expurgo' on parchment in raven's blood, place head and parchment in circle and set alight)
+(LOOK UP ADULESCENS IN BOOK) (about making a sacrifice to gain youthfulness)
+W
+N
+W
+N
+(FILL JUG WITH HOLY WATER) (it already has something in it, remember the rattle?)
+EMPTY JUG (something falls out)
+(L) (it was a rusty key)
+GET RUSTY KEY
+FILL JUG WITH HOLY WATER
+S
+W
+S
+(X TOMBSTONE) (you wish you could bring your uncle back to life)
+(DIG GRAVE) (you need a spade or shovel)
+S
+(X GUARD) (he's dressed like a monk and wears a hood)
+(TALK TO HIM) (this is a private ceremony, go away)
+E
+(S) (the gate's closed)
+(OPEN GATE) (it's locked)
+UNLOCK GATE WITH RUSTY KEY
+OPEN IT
+DROP KEY
+S (it's too dark to see)
+LIGHT MATCH
+LIGHT TORCH WITH MATCH
+DROP PARCHMENT
+DROP QUILL
+DROP SPELL BOOK
+N
+W
+(S) (guard won't let you pass)
+WEAR HOOD
+S (there's a black mass, don't remove hood or get head or they'll kill you)
+S (you're now hidden behind the altar)
+(X TRAPDOOR) (it's locked with a sliding bolt)
+UNLOCK TRAPDOOR (or SLIDE BOLT)
+OPEN IT
+GET UNCLE'S HEAD (the hooded people don't see you take it from behind the altar)
+D
+E
+NE
+E
+U
+GET AUNT'S HEAD
+U
+U
+POUR HOLY WATER ONTO AUNT'S BODY (her soul is now cleansed)
+W
+W
+S
+W
+S
+(X HAY) (you find a pitchfork, but we're not going to use it)
+X TOOLS (you find a claw hammer, pliers, screwdriver and bolt cutters)
+GET HAMMER AND BOLT CUTTERS
+N
+W
+S
+S
+W
+(X DOOR) (it's boarded up)
+BREAK WINDOW WITH HAMMER (you can now climb through the window)
+S
+X DEBRIS (you find something)
+(L) (it's a shotgun)
+GET SHOTGUN
+(X IT) (it's a dual-barrel shotgun, but it's not loaded)
+N
+SE
+E
+E
+E
+(E) (the gate is closed)
+(OPEN GATE) (it's locked)
+(X IT) (it's locked with a metal chain)
+CUT CHAIN WITH BOLT CUTTERS (chain falls to ground)
+DROP BOLT CUTTERS
+OPEN GATE
+E
+X TOOLS (you find a shovel)
+GET SHOVEL
+W
+N
+E
+NE
+(S) (the door is closed)
+OPEN DOOR
+S
+LOOK UNDER BUNK (you find a couple of cylindrical objects)
+(L) (they're cartridges)
+GET CARTRIDGES
+(X THEM) (they're shotgun cartridges)
+LOAD SHOTGUN WITH CARTRIDGES (you're now ready to go hunting)
+GET CAN (you hear something splooshing around inside)
+N
+W (don't hang around here or you'll get gored by the boar)
+W (there are some ravens here)
+SHOOT RAVENS WITH SHOTGUN (you shot one)
+DROP SHOTGUN
+GET RAVEN
+(X IT) (its body is riddled with blood spots from the buckshot)
+N
+W
+W
+W
+NW
+N
+N
+FILL JUG WITH HOLY WATER
+S
+W
+S
+DIG GRAVE WITH SHOVEL
+DROP SHOVEL
+(X COFFIN) (the lid is nailed shut)
+(OPEN IT) (it's nailed shut)
+REMOVE NAILS WITH HAMMER
+DROP HAMMER
+REMOVE LID (you toss it to one side, coffin contains Uncle Bill's body))
+(X BODY) (it's been decapitated)
+POUR HOLY WATER ONTO BODY (his soul is now cleansed)
+S
+E
+S
+DRAW CIRCLE WITH BLOOD (using raven's blood)
+GET QUILL
+GET PARCHMENT
+WRITE EXPURGO ON IT (with raven's blood and quill)
+PUT IT IN CIRCLE
+PUT HEADS IN CIRCLE
+POUR KEROSENE IN CIRCLE
+LIGHT KEROSENE WITH TORCH
+***THE END***
